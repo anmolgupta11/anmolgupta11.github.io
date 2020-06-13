@@ -399,6 +399,13 @@ nav ul li a:hover {
         line-height: 1.7;
     }
 
+    .experience_text{
+        font-size: 4rem;
+        line-height: 1.7;
+        padding: 2rem;
+        max-width: 95rem;
+    }
+
     .blogposts {        /* Creating space above the target of a jump link. */
         padding-top: 30rem;
         margin-top: -30rem;
@@ -461,6 +468,10 @@ nav ul li a:hover {
 @media screen and (max-device-height:667px), screen and (max-height:667px) {
     .intro {
         height: 120vh;
+    }
+
+    .experience_intro {
+        height: 80vh;
     }
 
     .intro::before {
