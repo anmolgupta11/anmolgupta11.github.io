@@ -83,7 +83,7 @@ nav ul li a:hover {
 }
 
 .intro::before {
-    background-image: url("https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-image: url("images/background_2.jpeg");
     background-size: cover;
     background-position: center;
     min-height: 70rem; 
