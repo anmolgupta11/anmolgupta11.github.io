@@ -147,7 +147,7 @@ nav ul li a:hover {
 /* experience */
 .experience_intro {
     height: 70vh;
-    min-height: 50rem;   
+    min-height: 30rem;   
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -471,7 +471,7 @@ nav ul li a:hover {
     }
 
     .experience_intro {
-        height: 120vh;
+        height: 100vh
     }
 
     .intro::before {
