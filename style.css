@@ -324,7 +324,7 @@ nav ul li a:hover {
 /* contact */
 
 .contact {
-    height: 70vh;
+    height: 100vh;
     min-height: 50rem; 
     background-color: white;
     display: flex;

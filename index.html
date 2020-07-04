@@ -143,15 +143,15 @@
                 <p>Hey! If you like my work or have any question, please get in touch.</p>
             </div>
             <div class="all_contacts">
-                <div class="col-md-8 col-md-offset-2">
-                <form name="gform" id="gform" enctype="text/plain" action="https://forms.gle/Ub1XGY4KdrYVqvnf7" target="hidden_iframe" onsubmit="submitted=true;">
+                
+                <!-- <form name="gform" id="gform" enctype="text/plain" action="https://forms.gle/Ub1XGY4KdrYVqvnf7" method = "POST" target="hidden_iframe" onsubmit="submitted=true;">
 					<br>
   				<input type="text" name="entry.747639910" id="entry.747639910" placeholder="Name"><br>
   				<br>
-  				<input type="text" name="entry.1330815664" id="entry.1330815664" placeholder="Email"><br>
+  				<input type="email" name="entry.1330815664" id="entry.1330815664" placeholder="Email"><br>
 					<br>
 					<input type="text" name="entry.1500249483" id="entry.1500249483" placeholder="Message"><br>
-  				<input type="submit" value="Submit">
+  				<button type="submit">Submit</button>
 					</form>
 
 					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
@@ -166,8 +166,25 @@
   							$('#gform').prepend('Your message has been sent...');
   				});
 
+                    </script> -->
+                    <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/b61a0d75ba7d05534f81a0cd92b3fab5?embedded=1"></div>
+
+                    <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+                    <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+
+                    <!-- Get notified when the form is submitted, add your own code below: -->
+                    <script>
+                    // const formkeepEmbed = document.querySelector('#formkeep-embed')
+
+                    formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+                    console.log('Submitting form...')
+                    })
+
+                    formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+                    console.log('Submitted form...')
+                    })
                     </script>
-                    </div>
+
                     
                 <div class="contact_details">
                     <div class="icon">
@@ -214,7 +231,7 @@
     </main>
     <footer class="py-3 bg-grey">
         <div class="container" style="padding-top:32px;padding-bottom: 32px">
-        <h4 class="m-0 text-dark text-center ">Copyright &copy; Anmol Gupta</h4>
+        <h4 class="m-0 text-dark text-center ">Copyright &copy; 2020 Anmol Gupta</h4>
         </div>
     </footer>
 </body>
