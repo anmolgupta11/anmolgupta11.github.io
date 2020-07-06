@@ -85,6 +85,7 @@ nav ul li a:hover {
     text-transform: uppercase;
     color: #0d0f0f;
     font-family: 'Lora', serif;
+    padding-bottom: 2rem;
 }
 
 /* about */
@@ -179,7 +180,7 @@ nav ul li a:hover {
     color: #204747;
     display: inline-block;
     font-size: 2rem;
-    padding: 1rem 2.5rem;
+    padding: 1rem 2rem;
     margin: 1rem 4rem;
     border-radius: 0.9em;
     font-weight: 400;
@@ -349,6 +350,7 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 2rem;
 }
 
 /*
@@ -363,7 +365,7 @@ nav ul li a:hover {
 }
 
 .contact_details:hover {
-    background: #BACDD9;
+    /* background: #BACDD9; */
     border-style: solid;
     border-width: 0;
     border-radius: 0.5rem;
@@ -420,7 +422,7 @@ nav ul li a:hover {
     .experience_text{
         font-size: 4rem;
         line-height: 1.7;
-        padding: 2rem;
+        padding-bottom: 2rem;
         max-width: 95rem;
     }
 
@@ -489,7 +491,8 @@ nav ul li a:hover {
     }
 
     .experience_intro {
-        height: 100vh
+        height: 100vh;
+        padding-top: 2rem;
     }
 
     .intro::before {
